@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h2 { color:LightSalmon;
+	font-family: Georgia;
+	letter-spacing: 3px;
+	text-shadow: 2px 1px black;
+}
+</style>
+  <title>International flower shop</title>
+</head>
+<body>
+  <h1>Welcome!</h1>
+  <h2>MadJer International Flowers Inc.</h2>
+  <form method="get" action="querymv">
+    <b>Choose a flower:</b>
+    <input type="checkbox" name="flowers" value="Rose" />Rose
+    <input type="checkbox" name="flowers" value="Sunflower" />Sunflower
+    <input type="checkbox" name="flowers" value="Daisy" />Daisy
+    <input type="checkbox" name="flowers" value="Magnolia" />Magnolia
+    <br /><br />
+    <b>Choose a country:</b>
+    <input type= "checkbox" name ="country" value="Malaysia" />Malaysia
+    <input type= "checkbox" name ="country" value="Singapore" />Singapore
+    <input type= "checkbox" name ="country" value="Thailand" />Thailand
+    <input type= "checkbox" name ="country" value="China" />China
+    <br /><br />
+    <b>Choose a unit price range(cost per flower):</b>
+    <input type="radio" name="price" value="5" checked />less than $5
+    <input type="radio" name="price" value="2" />less than $2
+	<br /><br />
+    <input type="submit" value="Search">
+    <input type="reset" value="Clear" />
+  </form>
+</body>
+</html>

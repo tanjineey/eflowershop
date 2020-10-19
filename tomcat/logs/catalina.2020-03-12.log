@@ -1,0 +1,484 @@
+12-Mar-2020 00:04:39.538 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+12-Mar-2020 00:04:39.545 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Mar-2020 00:04:39.592 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+12-Mar-2020 00:04:39.596 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+12-Mar-2020 00:04:53.182 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+12-Mar-2020 00:04:53.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+12-Mar-2020 00:04:53.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+12-Mar-2020 00:04:53.186 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+12-Mar-2020 00:04:53.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.1
+12-Mar-2020 00:04:53.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+12-Mar-2020 00:04:53.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
+12-Mar-2020 00:04:53.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+12-Mar-2020 00:04:53.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Mar-2020 00:04:53.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jeraltan/myWebProject/tomcat
+12-Mar-2020 00:04:53.187 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jeraltan/myWebProject/tomcat
+12-Mar-2020 00:04:53.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Mar-2020 00:04:53.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Mar-2020 00:04:53.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Mar-2020 00:04:53.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jeraltan/myWebProject/tomcat/conf/logging.properties
+12-Mar-2020 00:04:53.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Mar-2020 00:04:53.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Mar-2020 00:04:53.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Mar-2020 00:04:53.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Mar-2020 00:04:53.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Mar-2020 00:04:53.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jeraltan/myWebProject/tomcat
+12-Mar-2020 00:04:53.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jeraltan/myWebProject/tomcat
+12-Mar-2020 00:04:53.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jeraltan/myWebProject/tomcat/temp
+12-Mar-2020 00:04:53.204 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jeraltan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+12-Mar-2020 00:04:53.410 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+12-Mar-2020 00:04:53.447 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [425] milliseconds
+12-Mar-2020 00:04:53.476 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Mar-2020 00:04:53.477 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+12-Mar-2020 00:04:53.485 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/ebookshop]
+12-Mar-2020 00:04:53.928 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:04:53.955 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/ebookshop] has finished in [470] ms
+12-Mar-2020 00:04:53.955 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/docs]
+12-Mar-2020 00:04:54.185 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:04:54.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/docs] has finished in [231] ms
+12-Mar-2020 00:04:54.187 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/manager]
+12-Mar-2020 00:04:54.397 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:04:54.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/manager] has finished in [215] ms
+12-Mar-2020 00:04:54.402 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/examples]
+12-Mar-2020 00:04:54.744 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:04:54.757 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/examples] has finished in [355] ms
+12-Mar-2020 00:04:54.758 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/ROOT]
+12-Mar-2020 00:04:54.951 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:04:54.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/ROOT] has finished in [195] ms
+12-Mar-2020 00:04:54.953 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/hello]
+12-Mar-2020 00:04:54.964 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/hello]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/hello]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [QueryMultiValueServlet] and [QueryServlet] are both mapped to the url-pattern [/query] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:342)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:335)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2465)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2141)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2130)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2022)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1233)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1142)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5051)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+12-Mar-2020 00:04:54.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/hello] has finished in [14] ms
+12-Mar-2020 00:04:54.967 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/host-manager]
+12-Mar-2020 00:04:55.154 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:04:55.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/host-manager] has finished in [188] ms
+12-Mar-2020 00:04:55.156 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/eflowershop]
+12-Mar-2020 00:04:55.347 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:04:55.349 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/eflowershop] has finished in [192] ms
+12-Mar-2020 00:04:55.353 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+12-Mar-2020 00:04:55.360 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1,912] milliseconds
+12-Mar-2020 00:07:05.539 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] has started
+12-Mar-2020 00:07:05.765 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:07:05.767 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] is completed
+12-Mar-2020 00:07:15.779 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] has started
+12-Mar-2020 00:07:15.973 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:07:15.974 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] is completed
+12-Mar-2020 00:08:16.055 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] has started
+12-Mar-2020 00:08:16.254 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:08:16.255 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] is completed
+12-Mar-2020 00:08:56.305 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] has started
+12-Mar-2020 00:08:56.496 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:08:56.497 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] is completed
+12-Mar-2020 00:27:07.954 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:27:08.156 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:27:08.158 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:27:58.229 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:27:58.411 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:27:58.413 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:28:48.497 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:28:48.678 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:28:48.679 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:30:28.821 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:30:29.014 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:30:29.016 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:33:09.236 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:33:09.418 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:33:09.420 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:34:59.570 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:34:59.770 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:34:59.771 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:37:09.958 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:37:10.160 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:37:10.161 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:39:10.317 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:39:10.494 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:39:10.495 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:41:00.647 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:41:00.837 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:41:00.838 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:42:41.015 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:42:41.200 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:42:41.201 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:44:01.315 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:44:01.496 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:44:01.497 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:46:31.703 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:46:31.883 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:46:31.885 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:47:11.939 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:47:12.117 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:47:12.118 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:48:12.201 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:48:12.380 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:48:12.382 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:50:12.528 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:50:12.760 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:50:12.761 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 00:53:53.040 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 00:53:53.224 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 00:53:53.225 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 01:08:34.420 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 01:08:34.607 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:08:34.609 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 01:09:04.650 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 01:09:04.833 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:09:04.834 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 01:12:45.129 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 01:12:45.343 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:12:45.344 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 01:14:05.455 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 01:14:05.639 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:14:05.640 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 01:14:45.699 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 01:14:45.874 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:14:45.876 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 01:15:35.935 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 01:15:36.118 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:15:36.119 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 01:23:56.841 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] has started
+12-Mar-2020 01:23:57.041 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:23:57.043 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] is completed
+12-Mar-2020 01:31:37.652 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] has started
+12-Mar-2020 01:31:37.848 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:31:37.850 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] is completed
+12-Mar-2020 01:34:48.096 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] has started
+12-Mar-2020 01:34:48.291 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:34:48.292 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ebookshop] is completed
+12-Mar-2020 01:35:48.359 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 01:35:48.537 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:35:48.538 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 01:37:48.697 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 01:37:48.881 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:37:48.882 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 01:44:32.295 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+12-Mar-2020 01:44:32.295 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9999"]
+12-Mar-2020 01:44:32.297 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Mar-2020 01:44:32.315 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9999"]
+12-Mar-2020 01:44:32.317 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9999"]
+12-Mar-2020 01:44:38.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.31
+12-Mar-2020 01:44:38.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 5 2020 19:32:12 UTC
+12-Mar-2020 01:44:38.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.31.0
+12-Mar-2020 01:44:38.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+12-Mar-2020 01:44:38.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.1
+12-Mar-2020 01:44:38.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+12-Mar-2020 01:44:38.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
+12-Mar-2020 01:44:38.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           13.0.2+8
+12-Mar-2020 01:44:38.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Mar-2020 01:44:38.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/jeraltan/myWebProject/tomcat
+12-Mar-2020 01:44:38.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/jeraltan/myWebProject/tomcat
+12-Mar-2020 01:44:38.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Mar-2020 01:44:38.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Mar-2020 01:44:38.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Mar-2020 01:44:38.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/jeraltan/myWebProject/tomcat/conf/logging.properties
+12-Mar-2020 01:44:38.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Mar-2020 01:44:38.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Mar-2020 01:44:38.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+12-Mar-2020 01:44:38.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Mar-2020 01:44:38.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+12-Mar-2020 01:44:38.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/jeraltan/myWebProject/tomcat
+12-Mar-2020 01:44:38.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/jeraltan/myWebProject/tomcat
+12-Mar-2020 01:44:38.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/jeraltan/myWebProject/tomcat/temp
+12-Mar-2020 01:44:38.105 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/jeraltan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+12-Mar-2020 01:44:38.323 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9999"]
+12-Mar-2020 01:44:38.362 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [442] milliseconds
+12-Mar-2020 01:44:38.393 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Mar-2020 01:44:38.393 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.31]
+12-Mar-2020 01:44:38.401 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/ebookshop]
+12-Mar-2020 01:44:38.849 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:44:38.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/ebookshop] has finished in [475] ms
+12-Mar-2020 01:44:38.876 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/docs]
+12-Mar-2020 01:44:39.115 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:44:39.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/docs] has finished in [241] ms
+12-Mar-2020 01:44:39.117 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/manager]
+12-Mar-2020 01:44:39.343 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:44:39.348 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/manager] has finished in [231] ms
+12-Mar-2020 01:44:39.348 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/examples]
+12-Mar-2020 01:44:39.721 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:44:39.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/examples] has finished in [390] ms
+12-Mar-2020 01:44:39.738 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/ROOT]
+12-Mar-2020 01:44:39.940 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:44:39.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/ROOT] has finished in [204] ms
+12-Mar-2020 01:44:39.942 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/hello]
+12-Mar-2020 01:44:39.955 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/hello]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:720)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:690)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:705)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1133)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1867)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1045)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:429)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1576)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:936)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:841)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:421)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:633)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/hello]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:717)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The servlets named [QueryMultiValueServlet] and [QueryServlet] are both mapped to the url-pattern [/query] which is not permitted
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMappingDecoded(WebXml.java:342)
+		at org.apache.tomcat.util.descriptor.web.WebXml.addServletMapping(WebXml.java:335)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationWebServlet(ContextConfig.java:2465)
+		at org.apache.catalina.startup.ContextConfig.processClass(ContextConfig.java:2141)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsStream(ContextConfig.java:2130)
+		at org.apache.catalina.startup.ContextConfig.processAnnotationsWebResource(ContextConfig.java:2022)
+		at org.apache.catalina.startup.ContextConfig.processClasses(ContextConfig.java:1233)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1142)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:774)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:301)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5051)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 38 more
+12-Mar-2020 01:44:39.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/hello] has finished in [15] ms
+12-Mar-2020 01:44:39.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/host-manager]
+12-Mar-2020 01:44:40.164 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:44:40.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/host-manager] has finished in [209] ms
+12-Mar-2020 01:44:40.166 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/eflowershop]
+12-Mar-2020 01:44:40.365 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:44:40.367 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/jeraltan/myWebProject/tomcat/webapps/eflowershop] has finished in [201] ms
+12-Mar-2020 01:44:40.372 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9999"]
+12-Mar-2020 01:44:40.378 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2,015] milliseconds
+12-Mar-2020 01:54:01.197 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 01:54:01.428 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:54:01.431 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 01:56:21.614 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 01:56:21.812 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:56:21.814 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 01:58:42.014 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 01:58:42.215 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 01:58:42.216 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 02:04:02.664 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 02:04:02.844 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 02:04:02.846 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 02:21:24.402 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 02:21:24.952 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 02:21:24.956 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 02:29:37.654 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 02:29:38.272 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 02:29:38.275 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 02:32:48.536 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 02:32:48.837 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 02:32:48.842 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 02:33:48.922 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 02:33:49.119 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 02:33:49.121 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 02:37:59.451 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 02:37:59.641 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 02:37:59.642 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 02:38:59.722 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 02:38:59.932 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 02:38:59.934 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 10:26:27.572 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 10:26:28.022 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 10:26:28.023 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 10:27:58.148 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 10:27:58.421 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 10:27:58.422 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 10:29:18.533 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 10:29:18.728 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 10:29:18.731 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 10:42:19.539 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 10:42:19.758 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 10:42:19.760 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 10:43:09.823 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 10:43:10.006 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 10:43:10.007 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 10:43:50.057 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 10:43:50.246 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 10:43:50.248 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 10:55:01.141 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 10:55:01.340 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 10:55:01.341 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 10:55:51.400 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 10:55:51.603 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 10:55:51.604 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 10:56:01.620 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 10:56:01.805 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 10:56:01.806 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 11:06:01.247 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 11:06:01.514 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 11:06:01.515 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 11:12:12.007 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 11:12:12.298 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 11:12:12.299 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 11:17:42.736 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 11:17:42.955 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 11:17:42.957 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 11:19:13.069 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 11:19:13.266 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 11:19:13.269 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 11:19:53.308 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 11:19:53.500 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 11:19:53.502 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 11:30:42.403 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 11:30:42.666 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 11:30:42.669 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 11:31:52.755 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 11:31:53.105 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 11:31:53.106 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 11:35:13.353 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 11:35:13.562 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 11:35:13.565 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 11:36:03.631 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 11:36:03.818 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 11:36:03.819 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 11:37:33.928 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 11:37:34.112 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 11:37:34.113 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 13:52:01.072 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 13:52:01.422 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 13:52:01.424 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:06:22.594 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:06:22.810 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:06:22.811 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:06:32.820 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:06:33.009 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:06:33.010 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:10:23.321 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:10:23.568 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:10:23.570 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:16:24.104 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:16:24.324 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:16:24.331 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:16:34.337 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:16:34.522 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:16:34.523 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:43:06.676 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:43:06.990 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:43:06.992 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:44:07.061 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:44:07.288 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:44:07.289 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:45:17.383 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:45:17.589 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:45:17.590 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:47:57.776 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:47:57.972 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:47:57.973 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:49:18.139 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:49:18.333 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:49:18.334 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:50:08.398 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:50:08.592 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:50:08.593 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:51:08.663 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:51:08.847 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:51:08.849 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:52:08.924 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:52:09.142 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:52:09.143 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:53:19.228 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:53:19.423 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:53:19.424 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:54:59.544 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:54:59.735 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:54:59.737 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:56:29.852 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:56:30.037 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:56:30.039 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 14:59:30.264 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 14:59:30.462 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 14:59:30.463 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 15:01:00.577 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 15:01:00.776 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 15:01:00.777 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 15:05:21.132 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 15:05:21.362 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 15:05:21.364 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 15:18:32.417 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 15:18:32.827 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 15:18:32.829 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 15:19:12.870 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 15:19:13.126 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 15:19:13.127 INFO [Catalina-utility-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
+12-Mar-2020 16:18:58.571 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] has started
+12-Mar-2020 16:18:59.312 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2020 16:18:59.316 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/eflowershop] is completed
